@@ -1,0 +1,14 @@
+header {
+    --header-font-color: #FFFFFF;
+    --header-bg-color: #391670;
+    --header-icon-color: #FFFFFF;
+    --menu-text-color: #FFFFFF;
+    --menu-bg-color: #431A86;
+
+    background-color: var(--header-bg-color);
+    color: var(--header-font-color);
+}
+
+header .cart-icon {
+    fill: var(--header-icon-color);
+}
