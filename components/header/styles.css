@@ -12,3 +12,41 @@ header {
 header .cart-icon {
     fill: var(--header-icon-color);
 }
+
+header .categories {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 40px;
+}
+
+header .category-item {
+    @apply font-medium;
+    font-size: 15px;
+}
+
+header #search {
+    padding: 0 60px 0 20px;
+    color: var(--black-dark);
+    font-size: 15px;
+}
+
+header .holder-search-bar svg {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+
+header .dropdown.all-categories {
+    width: 218px;
+    padding: 28px 0 32px;
+}
+
+header .all-categories .dropdown-item {
+    margin-bottom: 19px;
+}
+
+header .all-categories .dropdown-item > a {
+    @apply text-base;
+    padding: 0 32px;
+}

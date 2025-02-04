@@ -1,7 +1,10 @@
+import BaseIcon from '../icons/base-icon';
+import SearchIcon from '../icons/search-icon';
+
 export default function SearchBar() {
     return (
         <div 
-            className='ml-auto w-[240px] mr-3'
+            className='holder-search-bar ml-auto w-[240px] mr-3 relative'
         >
             <input 
                 id='search' 
@@ -10,6 +13,12 @@ export default function SearchBar() {
                 placeholder='Buscar produto'
                 className='w-full'
             />
+            <BaseIcon
+                width={16}
+                height={18}
+            >
+                <SearchIcon />
+            </BaseIcon>
         </div>
     )
 }

@@ -20,14 +20,19 @@ export default async function Header() {
                     src={menuInfos.data.logo_url}
                     alt='Logo'
                 />
+
                 <Categories categories={menuInfos.data.categories}/>
+
                 <SearchBar />
+
                 <BaseIcon
+                    className='icon icon-account'
                     width="16"
                     height="18"
                 >
                     <AccountIcon />
                 </BaseIcon>
+
                 <MiniCart />
             </div>
         </header>

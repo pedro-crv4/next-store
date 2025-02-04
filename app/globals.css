@@ -101,7 +101,7 @@ body {
 }
 
 input {
-    order: 1px solid var(--black-lightest);
+    border: 1px solid var(--black-lightest);
     border-radius: var(--theme-border-radius);
     font-family: inherit;
     font-size: var(--font-14);
@@ -110,4 +110,29 @@ input {
     padding-right: 24px;
     width: 100%;
     height: 45px;
+    outline: none;
+}
+
+.dropdown {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    background: #fff;
+    transition: visibility .3s, opacity 0s linear .1s;
+    z-index: 1;
+    border-radius: var(--theme-border-radius);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+    border: 1px solid var(--default-background-color);
+    color: var(--black-dark);
+}
+
+.holder-dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.holder-dropdown:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s, opacity 0s linear;
 }

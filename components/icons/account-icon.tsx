@@ -1,5 +1,3 @@
-import BaseIcon from './base-icon';
-
 export default function AccountIcon() {
     return (
         <>
