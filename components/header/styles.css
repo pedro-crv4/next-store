@@ -46,7 +46,9 @@ header .all-categories .dropdown-item {
     margin-bottom: 19px;
 }
 
-header .all-categories .dropdown-item > a {
+header .all-categories .dropdown-item>a {
     @apply text-base;
     padding: 0 32px;
 }
+
+header .side-cart {}

@@ -26,7 +26,7 @@ export default async function Header() {
                 <SearchBar />
 
                 <BaseIcon
-                    className='icon icon-account'
+                    className='icon icon-account mr-4'
                     width="16"
                     height="18"
                 >

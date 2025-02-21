@@ -1,0 +1,23 @@
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid;
+    text-align: center;
+    text-transform: var(--fonts-buttons-uppercase);
+    font-weight: var(--font-bold);
+    transition: opacity .3s;
+    font-family: inherit;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.btn.btn-primary {
+    padding: 11px 50px;
+    min-height: 50px;
+    line-height: 26px;
+    font-size: var(--font-18);
+    color: var(--color-btn-primary-text);
+    border-radius: var(--theme-border-radius);
+    background-color: var(--color-btn-primary-background);
+    border-color: var(--color-btn-primary-background-outline);
+}
